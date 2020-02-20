@@ -1,0 +1,7 @@
+{
+  "id"         : "nodebb-theme-forumangbandlive",
+  "name"       : "Angband.live forum",
+  "description": "Main dark nodebb theme for forum.angband.live",
+  "url"        : "https://github.com/kaytrance/nodebb-theme-forumangbandlive",
+  "screenshot" : "screenshot.png"
+}
