@@ -67,7 +67,7 @@
 
 		.icon {
 			position: relative;
-			border-radius: 50%;
+			//border-radius: 50%;
 			min-width: 46px;
 			min-height: 46px;
 			margin-top: 2px;
@@ -137,8 +137,9 @@
 	[component="post/parent"] {
 		border: 0;
 		font-size: 8px;
-		background-color: #f0f0f0;
+		background-color: #82cdeb;
 		vertical-align: 1px;
+		color: #000;
 	}
 
 	.threaded-replies {
@@ -227,7 +228,7 @@
 		margin-top: 20px;
 		padding-bottom: 1px;
 		margin-top: -43px;
-		margin-left: 61px;
+		margin-left: 43px;
 		word-wrap: break-word;
 		overflow: hidden;
 	}
@@ -320,7 +321,7 @@
 			margin-top: -3px;
 
 			.avatar {
-				.user-icon-style(23px, 1.3rem, 50%);
+				.user-icon-style(23px, 1.3rem, 0%);
 			}
 		}
 
@@ -394,11 +395,19 @@
 
 		[component="post"] {
 			position: relative;
+			padding: 1rem;
+			background-color: #242629;
+			box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+			margin-bottom: 1rem;
 
 			.edit-icon {
 				vertical-align: -2%;
 			}
 
+			.post-bar {
+				padding: 1rem 0.3rem 0 0.3rem;
+				background-color: #242629;
+			}
 			&.deleted {
 				> .content {
 					.opacity(0.3);
