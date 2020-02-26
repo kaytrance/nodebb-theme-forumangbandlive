@@ -1,6 +1,6 @@
 {
   "name"       : "nodebb-theme-forumangbandlive",
-  "version"    : "0.0.1",
+  "version"    : "0.0.2",
   "description": "Main dark nodebb theme for forum.angband.live",
   "main"       : "theme.less",
   "keywords"   : [
