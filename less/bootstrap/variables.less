@@ -696,19 +696,19 @@
 //
 //##
 
-@panel-bg:                    #fff;
+@panel-bg:                    @category_bgr;
 @panel-body-padding:          15px;
 @panel-heading-padding:       10px 15px;
 @panel-footer-padding:        @panel-heading-padding;
 @panel-border-radius:         @border-radius-base;
 
 //** Border color for elements within panels
-@panel-inner-border:          #ddd;
-@panel-footer-bg:             #f5f5f5;
+@panel-inner-border:          darken(@text-color, 25%);
+@panel-footer-bg:             @category_bgr;
 
 @panel-default-text:          @gray-dark;
-@panel-default-border:        #ddd;
-@panel-default-heading-bg:    #f5f5f5;
+@panel-default-border:        @panel-inner-border;
+@panel-default-heading-bg:    @category_bgr;
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;

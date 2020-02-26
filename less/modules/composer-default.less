@@ -1,14 +1,53 @@
 .composer {
+
+	background-color: @category_bgr !important;
+
+	.write {
+		background-color: @input-bg !important;
+		border-color: @input-border !important;
+	}
+
+	.title {
+		background-color: unset !important;
+		color: @text-color !important;
+	}
+
+	.composer-submit {
+		color: rgba(#79d7fc, 90%);
+		background-color: rgba(72, 123, 217, 0.2);
+		border-color: rgba(#57a0bd, 0.8);
+
+		&:hover {
+			color: #79d7fc;
+			background-color: rgba(72, 123, 217, 0.5);
+			border-color: #57a0bd;
+		}
+	}
+
+
+	.formatting-bar {
+		.formatting-group {
+			li {
+				color: desaturate(darken(@link-color, 0%), 10%) !important;
+
+				&:hover {
+					color: lighten(@link-color, 15%) !important;
+					background-color: unset !important;
+				}
+			}
+		}
+	}
+
 	.preview {
 		overflow-y: auto;
 
 		p {
 			margin: 0 0 18px;
 		}
-		
+
 		blockquote {
 			font-size: 12px;
-			
+
 			p {
 				margin-bottom: 0px;
 			}
